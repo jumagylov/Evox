@@ -170,7 +170,7 @@ nav li a {
         background-color: #02bbf3;
     }
     .header_li{
-        padding-top: -150px;
+        padding-top: 23px;
         padding-bottom: 5%;
         text-align: center;
         color: #ffffff;
@@ -191,7 +191,7 @@ nav li a {
         font-size: 20px;
     }
     #header_li{
-        margin-left: 55vh;
+        margin-left: 25vh;
         text-decoration: none;
     }
     
@@ -563,6 +563,7 @@ nav li a {
     .cont_5 p{
         margin-top: 4vh;
     }
+
     .str_left{
         width: 30px;
         margin-top: 15vh;
@@ -576,19 +577,88 @@ nav li a {
     .section_5{
         margin-bottom: 14vh;
     }
+    .Price_img{
+        width: 80px;
+        display: none;
+    }
+    #img{
+        display: block;
+        width: 50px;
+        margin-top: 20px;
+    }
+}
+#img{
+    display: none;
+}
+@media(max-width:1290px){
+    .Price_img{
+        width: 100px;
+        display: block;
+    }
+    #img{
+        display: none;
+    }
 }
 @media(max-width:360px){
     .section_5{
         height: 600px;
     }
     .section_5_img{
-        width: 96%;
+        width: 100%;
         height: 386px;
         margin-top: -20px;
+        border: 1px solid red;
     }
     .section_5_img img{
-        width: 130px;
+        width: 160px;
         border: 1px solid gray;
         margin-top: 8px;
+    }
+}
+@media(max-width:480px){
+    .section_5_img img{
+        width: 130px;
+        border: 1px solid grey;
+        margin-top: -8px;
+    }
+
+    .Icons_Price{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Price_img{
+        width: 80px;
+        display: none;
+    }
+    #img{
+        display: block;
+        width: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:960px){
+    /* .section_5_img img{
+        width: 190px;
+        border: 1px solid grey;
+        margin-top: -8px;
+    }
+
+    .Icons_Price{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    } */
+    .Price_img{
+        width: 80px;
+        display: none;
+    }
+    #img{
+        display: block;
+        width: 50px;
+        margin-top: 20px;
     }
 }

@@ -363,12 +363,17 @@ hr{
     align-items: center;
     justify-content: space-between;
 }
+
 @media (max-width: 960px) {
     .container{
         height: 80px;
         display: flex;
         flex-direction: column-reverse;
     }
+    .none{
+        display: none;
+    }
+    
 }
 
 @media (max-width: 960px) {
