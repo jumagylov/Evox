@@ -615,13 +615,25 @@ nav li a {
         margin-top: 8px;
     }
 }
-@media(max-width:480px){
+
+@media(max-width:481.60px){
     .section_5_img img{
         width: 130px;
         border: 1px solid grey;
         margin-top: -8px;
     }
-
+    .section_4_wrapper{
+        padding-top: 30px;
+        padding-bottom: 20%;
+        margin: 20px 0 0 37px;
+    }
+    .footer{
+        width: 37%;
+        display: flex;
+        flex-direction: end;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
     .Icons_Price{
         display: flex;
         justify-content: center;

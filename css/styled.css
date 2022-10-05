@@ -373,7 +373,7 @@ hr{
     .none{
         display: none;
     }
-    
+
 }
 
 @media (max-width: 960px) {
@@ -405,4 +405,17 @@ hr{
      .navigate{
         margin-top: -7vh;
      }
+  }
+  @media (max-width:460px) {
+    .footer_menu{
+        width: 37%;
+    }
+    .section_4_wrapper{
+        padding-top: 30px;
+        margin: 20px 0 0 37px;
+    }
+    .section_4{
+        padding-bottom: 20%;
+
+    }
   }
