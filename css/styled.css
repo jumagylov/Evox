@@ -410,7 +410,7 @@ hr{
     }
   }
 
-  @media (max-width: 360px){
+  @media (max-width: 560px){
      .block_installation{
         margin-top: 4vh;
      }
