@@ -220,6 +220,9 @@ nav li a {
         width: 190px;
         margin-left: 5vh;
     }
+    .text_our_service{
+        width: 260px;
+    }
     .img_wrapper{
         width: 100%;
     }
@@ -493,6 +496,7 @@ nav li a {
     }
 }
 @media(max-width:360px){
+
     .section_4_wrapper{
         width: 84%;
     }
@@ -600,19 +604,22 @@ nav li a {
     }
 }
 @media(max-width:360px){
+
     .section_5{
         height: 600px;
     }
     .section_5_img{
-        width: 100%;
+        width: 90%;
         height: 386px;
         margin-top: -20px;
-        border: 1px solid red;
     }
     .section_5_img img{
         width: 160px;
         border: 1px solid gray;
         margin-top: 8px;
+    }
+    .slid_div{
+        margin-left: 2px;
     }
 }
 
