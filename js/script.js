@@ -94,7 +94,7 @@ noRem3.style.width = '30px'
 noRem3.style.marginTop = '10px'
 
 let withRem3 = document.createElement('img')
-withRem3.src = 'https://img2.freepng.ru/20180611/abz/kisspng-computer-icons-plus-and-minus-signs-clip-art-5b1e62a4baa424.2731478915287179887645.jpg'
+withRem3.src = '-'
 withRem3.style.width = '50px'
 withRem3.style.height = '50px'
 
